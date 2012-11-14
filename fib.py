@@ -11,7 +11,7 @@ def fibDirect(n):
 
 # Main method for displaying fibonacci numbers.
 def main():
-	fibonaccinumbers = [1, 1, 2, 3, 5, 8, 13, 21, 34]
+	fibonaccinumbers = [fibRecursive(n) for n in range(10)]
 	for fib in fibonaccinumbers:
 		print fib, 
 
