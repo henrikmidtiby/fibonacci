@@ -1,7 +1,10 @@
 # Program for calculating fibonacci numbers.
 
 def fibRecursive(n):
-	return 1
+	if n < 2:
+		return 1
+	else:
+		return fibRecursive(n - 1) + fibRecursive(n - 2)
 
 def fibIterative(n):
 	return 1
