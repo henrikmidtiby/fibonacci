@@ -4,7 +4,10 @@ def fibRecursive(n):
 	return 1
 
 def fibIterative(n):
-	return 1
+	(a, b) = (1, 1)
+	for k in range(n):
+		(a, b) = (b, a + b)
+	return a
 
 def fibDirect(n):
 	return 1
