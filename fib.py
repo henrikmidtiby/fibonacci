@@ -7,7 +7,6 @@ def fibIterative(n):
 	return 1
 
 def fibDirect(n):
-	n = n + 1
 	# Using binets formula
 	phi = (1 + 5**0.5) / 2
 	return int(round((phi**n - (1-phi)**n) / 5**0.5))
